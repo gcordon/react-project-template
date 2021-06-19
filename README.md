@@ -1,8 +1,8 @@
 从前端工程化出发，开发一个前端中后台项目
 
 ## 完成文章目录
-- 一、![初始化项目](https://juejin.cn/post/6974416607581831204)
-    - ![React项目修改Webpack配置](https://juejin.cn/post/6974572885763424270)
+- 一、[初始化项目](https://juejin.cn/post/6974416607581831204)
+    - [React项目修改Webpack配置](https://juejin.cn/post/6974572885763424270)
     - 徒手搭建前端项目
     - 前端脚手架开发
     - 前端UI组件库开发
