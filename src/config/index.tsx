@@ -3,7 +3,7 @@ class Config {
     static DEV:string = "development";
     static PRODUCTION:string = "production";
     static allKeys:string[] = ["development", "pre", "production"];
-    static currentDev: string = process.env.REACT_APP_DEV_TEST || Config.PRODUCTION
+    static currentDev: string = process.env.REACT_APP_DEV || Config.PRODUCTION
     
     static isDev(): boolean {
         return Config.currentDev === Config.DEV;
@@ -18,7 +18,6 @@ class Config {
     }
 
     static getUrlLinks(key:string):string{
-        console.log("currentDev", process.env.REACT_APP_DEV_TEST)
         return config[Config.currentDev].links[key];
     }
 
