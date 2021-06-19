@@ -1,46 +1,54 @@
-# Getting Started with Create React App
+从前端工程化出发，开发一个前端中后台项目
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- 1、初始化项目（完成）
+    - 引入ui库
+    - 释放webpack配置
+    - 路径别名引入
+    - 初始化样式、引入less
+    - ==代码格式化prettier的配置==
+    - ==eslint配置==
+    - 代码格式化引入 eslint、prettier代码格式化
+- 2、多人开发分支管理、git记录提交规范
+    - Git关联项目
+    - Git分支管理
+    - Git提交规范
+    - 注意事项
+        - 不能提交一些文件node_modules  build
+- 3、项目配置预发环境和生产环境
+    - 通过webpack修改打包环境
+- 4、mock接口，一个很棒的前端模拟接口工具
+- 5、axios 封装、promise封装
+    - 引入axios请求库，简单封装，统一管理
+    - axios原理，和项目中的经典操作
+    - axios超时配置，统一错误处理
+    - promise 原理和方法学习
+    - 学习noc平台、掘金平台如何及时终止请求
+    - 反向代理接口请求
+        - webpack本地代理和其他几种跨域代理的几种方式
+- 6、nginx项目部署的方式
+    - 部署方式
+    - 部署注意事项、允许header传递参数
+    - 管理日志，定时切割日志
+- 7、路由懒加载
+    - 懒加载的原理
+    - 单页面应用路由切换原理
+- 8、版本管理
+    - 版本号，版本说明，版本记录
+- 9、权限系统
+    - 路由配置
+    - 权限管理
+- 10、Redux引入
+    - 缓存一些数据
+    - 全局接口请求、项目加载依赖接口、版本
+- 11、常用组件的封装、表格、表格下载、图表组件使用
+- 12、常用公用函数、工具函数和单元测试
+- 13、灰度部署
+- 14、版本回退
+- 15、CI/CD部署
+- 16、CI静态文件校验
+- 17、k8s部署
+- 18、前端监控的加入、百度统计加入
+- 19、前端cli工具的开发、管理该项目
+- 20、开发公司内部组件库
+- 21、微前端框架的使用
+- 22、主题、语言的切换
