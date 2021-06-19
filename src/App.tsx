@@ -1,16 +1,13 @@
 import React from 'react';
-import Index from 'src/page'
-import { Button } from "antd"
+import Config from 'src/config'
 
 function App() {
+
   return (
     <div className="App">
-      <Index />
-      <Button type="primary">test</Button>
-      <div className="box clear-float">
-        <div className="float-left">leftfffddddsdfsdfs</div>
-        <div className="float-right">test</div>
-      </div>
+      当前环境：{Config.getCurrentDev()}
+      环境变量：{ process.env.REACT_APP_DEV }
+      调用的接口是：{Config.getUrlLinks("upm")}
     </div>
   );
 }

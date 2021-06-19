@@ -1,5 +1,5 @@
-import { createProxyMiddleware } from "http-proxy-middleware";
-module.exports = () => {
+const { createProxyMiddleware } = require("http-proxy-middleware");
+module.exports = (app) => {
     app.use(
         '/api/compass',
         createProxyMiddleware({
