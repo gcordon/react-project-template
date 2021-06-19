@@ -23,7 +23,7 @@
   "scripts": {
     "start": "cross-env REACT_APP_DEV=development react-app-rewired start",
     "build:pre": "cross-env REACT_APP_DEV=pre react-app-rewired build",
-    "build:prod": "cross-env REACT_APP_DEV=development react-app-rewired build",
+    "build:prod": "cross-env REACT_APP_DEV=production react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
