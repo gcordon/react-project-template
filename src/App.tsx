@@ -3,7 +3,7 @@ import Config from 'src/config'
 
 function App() {
 
-  console.log("this is test")
+  console.log("this is test and change many code")
 
   return (
     <div className="App">
