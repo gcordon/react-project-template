@@ -3,6 +3,8 @@ import Config from 'src/config'
 
 function App() {
 
+  console.log("this is test")
+
   return (
     <div className="App">
       当前环境：{Config.getCurrentDev()}
