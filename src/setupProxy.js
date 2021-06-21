@@ -1,15 +1,15 @@
 const { createProxyMiddleware } = require("http-proxy-middleware");
 module.exports = (app) => {
     app.use(
-        '/api/compass',
+        '/mock/*',
         createProxyMiddleware({
-            target: "http://localhost:4000/api/compass",
+            target: "http://localhost:4000",
             changeOrigin: true
         }))
     app.use(
-        '/api/test',
+        '/request',
         createProxyMiddleware({
-            target: "http://localhost:4000/api/test",
+            target: "http://localhost:4001",
             changeOrigin: true
         }))
 }
