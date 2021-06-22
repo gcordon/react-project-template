@@ -1,11 +1,8 @@
 import React, { useEffect } from 'react';
 import Config from 'src/config'
-import * as Api from "src/api/http/compass"
+import * as Api from "src/api/http/user"
 
 function App() {
-
-  console.log("this is test and change many code")
-
   useEffect(() => {
     GetList()
     GetDetail("1")
@@ -22,9 +19,6 @@ function App() {
       console.log("获取详情", res)
     })
   }
-
-
-
   return (
     <div className="App">
       当前环境：{Config.getCurrentDev()}

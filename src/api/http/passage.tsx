@@ -9,7 +9,6 @@ export const GetList = () => {
     })
 }
 
-
 export const GetDetail = (id: string) => {
     return request({
         url: `/request/api/detail/${id}`,
